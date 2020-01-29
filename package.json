@@ -2,6 +2,7 @@
   "name": "react-my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -11,7 +12,6 @@
     "react-scripts": "3.3.0"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^2.17.0",
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.1",
@@ -22,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint:fix": "eslint src/**/*.js --fix",
+    "lint-fix": "eslint src/**/*.js --fix",
     "lint": "eslint src/**/*.js",
     "prettify": "prettier src/**/*.js --write",
     "lint-test": "lint-staged"
@@ -46,12 +46,13 @@
     }
   },
   "lint-staged": {
-    "*.js": "npm run lint:fix"
+    "*.js": "npm run lint-fix"
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">0.5%",
       "not dead",
+      "Firefox ESR",
       "not op_mini all"
     ],
     "development": [
