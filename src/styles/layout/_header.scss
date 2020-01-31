@@ -3,10 +3,11 @@
 // -----------------------------------------------------------------------------
 
 header {
-  grid-area: header;
-  background: bisque;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  grid-column: span 3;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: #369;
+  color: white;
 }
+
