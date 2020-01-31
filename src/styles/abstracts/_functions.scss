@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass functions.
+// -----------------------------------------------------------------------------
+$headings : h1 h2 h3 h4 h5 h6;
+$font-size-base : 18px;
+
+$font-size-upper : 36px;
+$font-size-dec : 4px;
+@each $heading in $headings{
+  #{$heading} {
+    font-size : ($font-size-upper / $font-size-base) + em;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin: (($font-size-upper / $font-size-base) / 4) + em;
+  }
+  $font-size-upper : $font-size-upper - $font-size-dec;
+}

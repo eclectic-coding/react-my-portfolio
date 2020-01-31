@@ -1,0 +1,28 @@
+/**
+ * Basic typography style for copy text
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli&display=swap');
+
+body {
+  color: $text-color;
+  font: normal 113% / 1.5 $text-font-stack;
+  font-family: 'Muli', sans-serif;
+}
+
+.title {
+  margin: 0.25em;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+    letter-spacing: 1.2px;
+  }
+}
+
+.menu__list {
+  list-style-type: none;
+}

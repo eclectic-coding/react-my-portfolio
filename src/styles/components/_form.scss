@@ -1,0 +1,34 @@
+form {
+  margin-top: 1em;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 0.75em 1em;
+  margin: 0.5em 0;
+  display: block;
+  border: 1px solid $light-grey;
+  border-radius: 0.25em;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: $brand-color;
+  color: white;
+  padding: 0.75em 1.1em;
+  margin: 0.5em 0;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $brand-color-hover;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+  }
+}

@@ -1,9 +1,8 @@
 import React from 'react'
-import { Router, Link } from '@reach/router'
+import { Router } from '@reach/router'
 
 import Home from './Home'
 import About from './About'
-import Navbar from './Navbar/Navbar'
 
 const App = () => {
   return (

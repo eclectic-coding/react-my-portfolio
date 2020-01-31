@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
+  'Helvetica', 'Arial', sans-serif !default;
+
+/// Copy text color
+/// @type Color
+$text-color: hsl(0, 0%, 6%) !default;
+
+/// Main brand color
+$brand-color: rgba(41, 128, 185,1.0);
+$brand-color-hover: rgba(20, 64, 92,1.0);
+
+$light-grey: rgb(237, 237, 237) !default;
+$mid-grey: rgb(153, 153, 153) !default;
+$dark-grey: rgb(68, 68, 68) !default;
+
+// Neutrals
+$neutral-light: hsl(193, 100%, 96%);
+$neutral-med: hsl(192, 100%, 9%);
+$neutral-blue: hsl(208, 11%, 55%);
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
