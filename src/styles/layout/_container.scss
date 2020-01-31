@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-areas: "header header header" "nav content content" "footer footer footer";
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 10px;
+  height: 100vh;
+
+  @media (max-width: 768px) {
+    grid-template-areas: "header" "nav" "content" "content" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto /* Header */
+    minmax(75px, auto) /* Nav */
+    1fr /* Content */
+    minmax(75px, auto) /* Sidebar */
+    auto; /* Footer */
+  }
+}
+
+nav {
+  grid-area: nav;
+  margin-left: 0.5rem;
+  background: #F2EAD3;
+}
+
+main {
+  grid-area: content;
+  background: #F9F5F0;
+}
+
+aside {
+  grid-area: side;
+  margin-right: 0.5rem;
+  background: #F2EAD3;
+}
