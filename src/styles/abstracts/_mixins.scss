@@ -1,6 +1,7 @@
 // -----------------------------------------------------------------------------
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
+@import "variables";
 
 // Small devices
 @mixin sm {
@@ -11,7 +12,7 @@
 
 // Medium devices
 @mixin md {
-  @media (min-width: #{$screen-md-min}) {
+  @media (min-width: $screen-md-min) {
     @content;
   }
 }

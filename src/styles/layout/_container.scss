@@ -5,13 +5,12 @@
   font-size: 18px;
   line-height: 1.5;
 
-  @media (min-width: 768px) {
+  @include md {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 14em 1fr;
     grid-template-rows: 1fr auto;
   }
 }
-
 
 h1 {
   margin-bottom: 1em;

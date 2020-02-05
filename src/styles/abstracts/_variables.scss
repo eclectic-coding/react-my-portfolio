@@ -5,19 +5,23 @@
 /// Regular font family
 /// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue',
-  'Helvetica', 'Arial', sans-serif !default;
+  'Helvetica', 'Arial', sans-serif;
 
 /// Copy text color
-/// @type Color
-$text-color: hsl(0, 0%, 6%) !default;
+$text-color: hsla(0, 0%, 6%, 42);
 
-/// Main brand color
-$brand-color: rgba(41, 128, 185,1.0);
-$brand-color-hover: rgba(20, 64, 92,1.0);
+// Color palette - coolors.co/173753-e84855-3cc427-3f88c5-d8d52b
+$brand-primary: rgba(23, 55, 83, 1);
+$brand-background: rgba(255, 255, 250, 1);
+$brand-accent: rgba(63, 136, 197, 1);
+$brand-danger: rgba(232, 72, 85, 1);
+$brand-success: rgba(60, 196, 39, 1);
+$brand-warning: rgba(216, 213, 43, 1);
 
-$light-grey: rgb(237, 237, 237) !default;
-$mid-grey: rgb(153, 153, 153) !default;
-$dark-grey: rgb(68, 68, 68) !default;
+// Greys
+$light-grey: rgb(237, 237, 237);
+$mid-grey: rgb(153, 153, 153);
+$dark-grey: rgb(68, 68, 68);
 
 // Neutrals
 $neutral-light: hsl(193, 100%, 96%);
@@ -25,8 +29,7 @@ $neutral-med: hsl(192, 100%, 9%);
 $neutral-blue: hsl(208, 11%, 55%);
 
 /// Container's maximum width
-/// @type Length
-$max-width: 1180px !default;
+$max-width: 1180px;
 
 // Small tablets and large smartphones (landscape view)
 $screen-sm-min: 576px;

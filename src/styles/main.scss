@@ -14,14 +14,14 @@
 @import 'src/styles/base/typography';
 
 // 4. Layout-related sections
-@import 'src/styles/layout/header',
-'src/styles/layout/footer',
-'src/styles/layout/container';
+@import 'src/styles/layout/header';
+@import 'src/styles/layout/footer';
+@import 'src/styles/layout/container';
 
 // 5. Components
-@import 'src/styles/components/button',
-'src/styles/components/card',
-'src/styles/components/form';
+@import 'src/styles/components/button';
+@import 'src/styles/components/card';
+@import 'src/styles/components/navigation';
 
 // 6. Page-specific styles
 @import 'src/styles/pages/home';

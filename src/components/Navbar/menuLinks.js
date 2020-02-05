@@ -6,6 +6,16 @@ let menuLinks = [
   },
   {
     id: '2',
+    title: 'Blog',
+    url: '/blog',
+  },
+  {
+    id: '3',
+    title: 'Projects',
+    url: '/projects',
+  },
+  {
+    id: '4',
     title: 'About',
     url: '/about',
   },

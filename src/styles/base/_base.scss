@@ -1,11 +1,14 @@
 // -----------------------------------------------------------------------------
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
+@import "src/styles/abstracts/variables";
 
-// Basic styles for links
-
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 a {
-  color: $brand-color;
+  color: $brand-accent;
   text-decoration: none;
 
   &:hover {
@@ -19,13 +22,10 @@ main {
   padding: 20px;
 }
 
-aside {
-  padding: 20px;
-  background-color: #936;
+ul {
+  list-style-type: none;
 }
 
-nav {
-  background: burlywood;
-}
+
 
 

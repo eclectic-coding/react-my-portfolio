@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar/Navbar'
+import Footer from './Footer'
 
 const Home = () => {
   return (
     <div className="container">
-      {/*<header>Header</header>*/}
-      <nav>Navigation</nav>
+      <Navbar />
       <main>
         <h1>Main</h1>
         <p>
@@ -20,7 +20,7 @@ const Home = () => {
           imperdiet sollicitudin arcu, id interdum nibh fermentum in.
         </p>
       </main>
-      <footer>Footer</footer>
+      <Footer />
     </div>
   )
 }
