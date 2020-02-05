@@ -46,7 +46,7 @@ https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html for more info 
   display: none;
   left: -225px;
   top: 0;
-  height: 100%;
+  height: 100vh;
   overflow-y: hidden;
   overflow-x: visible;
   transition: left 0.3s ease;
