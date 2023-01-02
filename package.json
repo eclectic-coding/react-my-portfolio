@@ -14,7 +14,7 @@
     "react-scripts": "3.4.4"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
